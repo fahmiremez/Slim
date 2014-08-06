@@ -1,0 +1,10 @@
+berikut cara menginstall : 
+1. unzip file Ahmad.zip dengan program unzip atau bisa via konsol terminal dengan 
+   perintah unzip.
+2.copy folder Ahmad yang di extract tadi ke dalam folder /usr/share/slim/themes sebagai root atau via sudo 
+via root ---> # cp -R Ahmad /usr/share/slim/themes 
+via sudo ---> $ sudo cp -R Ahmad /usr/share/slim/themes
+3.setelah proses copy ganti settingan file login tema slim yang berada di /etc/slim.conf 
+ganti nama folder themes dengan nama Ahmad yang berada di baris "current_theme" 
+contoh --> current_theme    Ahmad  
+
